@@ -8,7 +8,7 @@ Boa sorte!
 
 ## Projeto: Aplicação às vagas Sinaxys
 
-Nesse projeto, vamos fazer uma listagem de vagas de emprego. O usuário poderá se cadastrar na plataforma e, caso esteja logado, se candidatar à uma vaga.
+Nesse projeto, vamos fazer uma listagem de vagas de emprego. O usuário poderá se cadastrar na plataforma com dados básicos e, caso esteja logado, se candidatar à uma vaga.
 
 * **Navbar:** Use a classe `bg-primary-dark` para pintar o fundo da navbar de roxo escuro... :)
 * **Tela inicial:** use o endpoint `GET https://prod.api.sinaxys.com/v2/jobs` para obter a listagem de vagas (dica: usamos a gem RestClient pra trabalhar com APIs). No mundo real é lógico que usaremos Active Record acessando o PostgreSQL, mas aqui usaremos API REST para não termos que lidar com arquivos seeds.
@@ -30,3 +30,7 @@ Nesse projeto, vamos fazer uma listagem de vagas de emprego. O usuário poderá 
   * A interface gráfica do formulário básico fica a critério do candidato (dica: use as classes padrão do Bootstrap, como `.form-control`).
 * **Login:** Deverá ter uma tela para o usuário efetuar o login com seu e-mail e senha.
   * A UI também fica por conta do candidato, também usando as classes padrão do Bootstrap.
+
+## Entrega
+
+Faça o envio do projeto em um repositório público no seu GitHub particular até a data combinada.
