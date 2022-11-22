@@ -1,6 +1,6 @@
 # Teste: Desenvolvedor Ruby on Rails Pleno
 
-Olá amigos, esse é um teste básico para avaliar seus conhecimentos de Ruby on Rails. No repositório, temos o arquivo `application.min.css` que já contem o Bootstrap 5 com o tema configurado. Também está o arquivo SVG do logotipo branco para ser usado na navbar superior. Não anexei nenhum arquivo JavaScript pois o uso de bibliotecas fica a critério do candidato (podem usar CDN caso façam uso de libs JS).
+Olá amigos, esse é um teste básico para avaliar seus conhecimentos de Ruby on Rails. No repositório, temos o arquivo `default.min.css` que já contem o Bootstrap 5 com o tema configurado. Também está o arquivo SVG do logotipo branco para ser usado na navbar superior. Não anexei nenhum arquivo JavaScript pois o uso de bibliotecas fica a critério do candidato (podem usar CDN caso façam uso de libs JS).
 
 OBS: como o arquivo CSS já tem o tema Sinaxys embutido, o que exige certa familiaridade, não tem problema se fizer algum CSS hard-coded usando o parâmetro style... :) 
 
