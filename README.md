@@ -14,12 +14,14 @@ Nesse projeto, vamos fazer uma listagem de vagas de emprego. O usuário poderá 
 * **Tela inicial:** use o endpoint `GET https://prod.api.sinaxys.com/v2/jobs` para obter a listagem de vagas (dica: usamos a gem RestClient pra trabalhar com APIs). No mundo real é lógico que usaremos Active Record acessando o PostgreSQL, mas aqui usaremos API REST para não termos que lidar com arquivos seeds.
   * O parâmetro `id` é a chave primária desse registro.
   * Cada vaga fica em um `.card` individual.
+  * O título da página é simplesmente uma tag `<h1>`.
   * Na imagem, os dados são de exemplo, devendo o candidato usar os dados retornados pela API.
 
 ![Screenshot 2022-11-22 at 18-30-51 Sinaxys](https://user-images.githubusercontent.com/3427344/203425975-445835c3-437f-4c11-afe2-0f47312fc252.png)
 
 * **Detalhe da vaga:** Ao clicar na vaga, a tela de detalhes usa o endpoint `GET https://prod.api.sinaxys.com/v2/jobs/[id]` — naturalmente, o [id] é o ID da vaga clicada.
   * Essa tela terá um botão "Me candidatar" (que usa as classes `btn` e `btn-primary` do Bootstrap), que só funcionará se o usuário estiver logado.
+  * O título da página é simplesmente uma tag `<h1>`.
   * Com o usuário logado, se ele clicar em "Me candidatar", será feito o registro em uma tabela simples associando o ID da vaga com o ID do usuário.
   * Se o usuário já tiver se candidatado, retornar um erro: _"Sua candidatura para essa vaga já foi enviada"_.
 
